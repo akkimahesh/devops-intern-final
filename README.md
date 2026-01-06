@@ -22,3 +22,36 @@ Run:
 ```bash
 python hello.py
 
+## 2. Linux & Scripting
+
+- Shell script to show system info:
+
+./scripts/sysinfo.sh
+
+
+Outputs:
+
+Current user
+
+Date
+
+Disk usage
+
+## 3. Docker
+
+Build and run container:
+
+docker build -t hello-devops .
+docker run hello-devops
+
+## 4. CI/CD (GitHub Actions)
+
+Pipeline runs hello.py on every push
+
+Status badge added to README
+
+## 5. Nomad Deployment
+
+Run Docker container via Nomad:
+
+nomad job run nomad/hello.nomad

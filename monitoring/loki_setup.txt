@@ -1,0 +1,12 @@
+Loki Setup (Local)
+
+1. Run Loki using Docker:
+docker run -d --name loki -p 3100:3100 grafana/loki:2.9.0
+
+2. Loki URL:
+http://127.0.0.1:3100
+
+3. View logs using curl:
+curl http://127.0.0.1:3100/loki/api/v1/labels
+
+4. Logs from Docker/Nomad containers can be forwarded using promtail.
