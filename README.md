@@ -5,7 +5,7 @@
 **Name:** Akki Mahesh  
 **Date:** 2026-01-06  
 
-![CI](https://github.com/akkimahesh/devops-intern-final/actions/workflows/ci.yml/badge.svg)
+![CI](https://github.com/akkimahesh/devops-intern-final/actions)
 
 ---
 
